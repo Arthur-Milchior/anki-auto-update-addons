@@ -1,7 +1,11 @@
 # Update add-ons at start
 ## Rationale
 I don't want to have to think about updating my add-ons. So this
-add-on does it when I load a profile
+add-on does it when I load a profile.
+
+It uses the same process for update than anki. That is: it updates
+only add-ons installed using the add-on manager. And you can decide tu
+update all or none of the add-ons.
 
 ## Warning
 If your computer is off-line, you'll have a tooltip stating no update
@@ -20,7 +24,9 @@ a profile to be loaded.
 None
 
 ## TODO
-A configuration option to do this while syncing.
+* A configuration option to synchronize add-ons while you synchronize
+the collection.
+* Being able to synchronize only some add-ons.
 
 ## Links, licence and credits
 

@@ -1,8 +1,8 @@
-This ensure that add-ons are updated when anki starts.
+When anki starts, this add-ons ask you whether you want to install updates if there are any available.
 
-<hr>
 
-To report bug, and for more informations, please go to https://github.com/Arthur-Milchior/anki-
+
+To report bug, and for more informations, please go to https://github.com/Arthur-Milchior/anki-auto-update-addons
 
 <strong>SUPPORT THIS ADD-ON</strong>
 
