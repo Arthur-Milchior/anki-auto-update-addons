@@ -2,6 +2,7 @@ from anki.hooks import addHook
 from aqt import mw
 from aqt.addons import AddonManager
 from aqt.utils import askUser, showInfo, showWarning, tooltip
+from anki.lang import _
 
 def checkForUpdate():
     mgr = AddonManager(mw)
