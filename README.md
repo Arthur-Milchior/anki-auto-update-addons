@@ -1,31 +1,25 @@
 # Update add-ons at start
 ## Rationale
 I don't want to have to think about updating my add-ons. So this
-add-on does it when I load a profile.
+add-on synchronizes add-ons when the collection is synchronized.
 
 It uses the same process for update than anki. That is: it updates
 only add-ons installed using the add-on manager. And you can decide tu
 update all or none of the add-ons.
 
 ## Warning
-If your computer is off-line, you'll have a tooltip stating no update
-occurs.
-
 This uses anki default update method, and so has the same limitation:
 it only update all or none of the add-ons.
-
-## Technical
-Ideally, I'd like this to run when anki loads. It makes no sens to do
-it when loading a profile. However, the add-on manager is entirely
-front-end, and requires the use of the main window, hence it requires
-a profile to be loaded.
 
 ## Version 2.0
 None
 
+## Internal
+It modifies:
+* `aqt.main.AnkiQt._sync` by calling the previous version of this
+  function and then asking addonDialog for update
+
 ## TODO
-* A configuration option to synchronize add-ons while you synchronize
-the collection.
 * Being able to synchronize only some add-ons.
 
 ## Links, licence and credits
