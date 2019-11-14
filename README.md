@@ -3,13 +3,13 @@
 I don't want to have to think about updating my add-ons. So this
 add-on synchronizes add-ons when the collection is synchronized.
 
-It uses the same process for update than anki. That is: it updates
-only add-ons installed using the add-on manager. And you can decide tu
+It uses the same process for updating as Anki. That is, it updates
+only add-ons installed using the add-on manager. And you can decide to
 update all or none of the add-ons.
 
 ## Warning
-This uses anki default update method, and so has the same limitation:
-it only update all or none of the add-ons.
+This add-on uses Anki's default update method, and so has the same limitation:
+it only updates all or none of the add-ons.
 
 ## Version 2.0
 None
