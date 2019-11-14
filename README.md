@@ -3,19 +3,19 @@
 I don't want to have to think about updating my add-ons. So this
 add-on does it when I load a profile.
 
-It uses the same process for update than anki. That is: it updates
-only add-ons installed using the add-on manager. And you can decide tu
+It uses the same process for updating as Anki. That is, it updates
+only add-ons installed using the add-on manager. And you can decide to
 update all or none of the add-ons.
 
 ## Warning
-If your computer is off-line, you'll have a tooltip stating no update
+If your computer is off-line, you'll see a tooltip stating no update
 occurs.
 
-This uses anki default update method, and so has the same limitation:
-it only update all or none of the add-ons.
+This add-on uses Anki's default update method, and so has the same limitation:
+it only updates all or none of the add-ons.
 
 ## Technical
-Ideally, I'd like this to run when anki loads. It makes no sens to do
+Ideally, I'd like this to run when Anki loads. It makes no sense to do
 it when loading a profile. However, the add-on manager is entirely
 front-end, and requires the use of the main window, hence it requires
 a profile to be loaded.
